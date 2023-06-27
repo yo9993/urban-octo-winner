@@ -1,0 +1,47 @@
+.pos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-section {
+  width: 40%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.order-section {
+  width: 40%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.checkout-section {
+  width: 18%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
